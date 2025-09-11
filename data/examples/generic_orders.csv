@@ -1,0 +1,4 @@
+order_id,created_at,status,total,currency
+A-100,2025-08-25 08:00:00,paid,9000,ARS
+A-101,2025-08-25 12:30:00,pending,12000,ARS
+A-102,2025-08-24 21:00:00,paid,30000,ARS
