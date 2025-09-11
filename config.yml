@@ -1,0 +1,19 @@
+timezone: "America/Argentina/Cordoba"
+stock_low_threshold_default: 5
+
+status_map:
+  paid: ["paid","approved","authorized","partially_paid"]
+  pending: ["pending","in_process","unpaid","partially_refunded"]
+  rejected: ["rejected","refunded","voided","cancelled"]
+
+csv_generic_mapping:
+  orders:
+    id: "order_id"
+    created_at: "created_at"
+    status: "status"
+    total: "total"
+    currency: "currency"
+  inventory:
+    sku: "sku"
+    title: "title"
+    stock: "stock"
